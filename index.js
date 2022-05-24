@@ -6,8 +6,6 @@ let characters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m
                 "5", "6", "7", "8", "9", ".", "+", "-", "*", "/", "^", "~", "<", ">", 
                 "?","!", "&", "%", "#", "@", "$"];
 
-//let initialVal = document.getElementById("initial-val");
-
 //Função que cria e retorna a senha aleatória
 function generatePassword() {
     //String de senha vazia
