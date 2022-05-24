@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/8dc81339fe.js" crossorigin="anonymous"></script>
+        <title>Password Generator</title>
+    </head>
+
+    <body>
+        <main>
+            <h1>Generate a <br> <span style="color: #55F991"> Random Password </span></h1>
+            <p>Never use an insecure password again.</p>
+            <button onclick="renderPassword()"><i class="fa-solid fa-bolt"></i>Generate passwords</button>
+            <!-- <input type="number" id="initial-val" value="10" min="5" max="15">  -->
+            <hr>
+            <svg id="svg1" width="400" height="110">
+                <rect width="300" height="100" style="fill:#273549;stroke-width:3;" />
+                <svg id="icon1" fill="#202B3C" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M120 256C120 286.9 94.93 312 64 312C33.07 312 8 286.9 8 256C8 225.1 33.07 200 64 200C94.93 200 120 225.1 120 256zM280 256C280 286.9 254.9 312 224 312C193.1 312 168 286.9 168 256C168 225.1 193.1 200 224 200C254.9 200 280 225.1 280 256zM328 256C328 225.1 353.1 200 384 200C414.9 200 440 225.1 440 256C440 286.9 414.9 312 384 312C353.1 312 328 286.9 328 256z"/></svg>
+                <span id="svg-span1"></span>   
+            </svg>
+            <svg id="svg2" width="400" height="110">
+                <rect width="300" height="100" style="fill:#273549;stroke-width:3;" />
+                <svg id="icon2" fill="#202B3C" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M120 256C120 286.9 94.93 312 64 312C33.07 312 8 286.9 8 256C8 225.1 33.07 200 64 200C94.93 200 120 225.1 120 256zM280 256C280 286.9 254.9 312 224 312C193.1 312 168 286.9 168 256C168 225.1 193.1 200 224 200C254.9 200 280 225.1 280 256zM328 256C328 225.1 353.1 200 384 200C414.9 200 440 225.1 440 256C440 286.9 414.9 312 384 312C353.1 312 328 286.9 328 256z"/></svg>
+                <span id="svg-span2"></span>   
+            </svg>
+            <svg id="svg3" width="400" height="110">
+                <rect width="300" height="100" style="fill:#273549;stroke-width:3;" />
+                <svg id="icon3" fill="#202B3C" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M120 256C120 286.9 94.93 312 64 312C33.07 312 8 286.9 8 256C8 225.1 33.07 200 64 200C94.93 200 120 225.1 120 256zM280 256C280 286.9 254.9 312 224 312C193.1 312 168 286.9 168 256C168 225.1 193.1 200 224 200C254.9 200 280 225.1 280 256zM328 256C328 225.1 353.1 200 384 200C414.9 200 440 225.1 440 256C440 286.9 414.9 312 384 312C353.1 312 328 286.9 328 256z"/></svg>
+                <span id="svg-span3"></span>   
+            </svg>
+            <svg id="svg4" width="400" height="110">
+                <rect width="300" height="100" style="fill:#273549;stroke-width:3;" />
+                <svg id="icon4" fill="#202B3C" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M120 256C120 286.9 94.93 312 64 312C33.07 312 8 286.9 8 256C8 225.1 33.07 200 64 200C94.93 200 120 225.1 120 256zM280 256C280 286.9 254.9 312 224 312C193.1 312 168 286.9 168 256C168 225.1 193.1 200 224 200C254.9 200 280 225.1 280 256zM328 256C328 225.1 353.1 200 384 200C414.9 200 440 225.1 440 256C440 286.9 414.9 312 384 312C353.1 312 328 286.9 328 256z"/></svg>
+                <span id="svg-span4"></span>   
+            </svg>
+        </main>
+        <script src="index.js"></script>
+    </body>
+
+</html>
